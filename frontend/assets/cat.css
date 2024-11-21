@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url("pacifico/Pacifico-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url("baloo_2/static/Baloo2-Regular.ttf");
+    font-weight: normal; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url("baloo_2/static/Baloo2-Bold.ttf");
+    font-weight: bold; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url("baloo_2/static/Baloo2-Medium.ttf");
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url("baloo_2/static/Baloo2-SemiBold.ttf");
+    font-weight: 600; /* SemiBold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url("baloo_2/static/Baloo2-ExtraBold.ttf");
+    font-weight: 800; /* ExtraBold */
+    font-style: normal;
+}
+
+
+.navbar {
+    background: #F8F8F1 !important;
+    border-radius: 25px;
+    border: 1px solid #400D01;
+}
+
+.no-b {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+.text-logo {
+    color: #400D01;
+    font-family: Pacifico, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text{
+    color: #400D01;
+    font-family: 'Baloo 2', sans-serif !important;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.custom-button {
+    background-color: transparent;
+    border: 1px solid #400D01;
+    color: #400D01;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+.custom-button:hover{
+    background-color: #f6f6ea;
+    filter: drop-shadow(1px 1px 1px #400D01);
+}
+
+
+/* Toast thành công */
+.Toastify__toast--success {
+    background-color: #400D01 !important;
+    color: #f6f6ea !important;
+}
+
+
+.Toastify__toast--error {
+    background-color: #F44336 !important;
+    color: #f6f6ea !important;
+}
+
+.Toastify__toast--warning {
+    background-color: #FFC107 !important;
+    color: #f6f6ea !important;
+}
+
+
+.Toastify__toast--info {
+    background-color: #2196F3 !important;
+    color: #f6f6ea !important;
+}
+
+html, body{
+    min-height: 100% !important;
+    min-width: 100% !important;
+    background: #F2F0D8 !important;
+    color: #400D01 !important;
+    font-family: 'Baloo 2', sans-serif !important;
+}

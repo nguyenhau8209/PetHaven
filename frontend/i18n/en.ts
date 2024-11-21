@@ -1,0 +1,20 @@
+export default {
+  logo: 'PetHaven',
+  slogan: 'Conscientious pet care',
+  searchPlaceholder: 'Search for services...',
+  searchButton: 'Search',
+  home: 'Home',
+  switchToEnglish: 'EN',
+  switchToVietnamese: 'VI',
+  aboutUs: 'About us',
+  introductionText: 'We are the leading pet care center...',
+  moreInfo: 'Learn more',
+  services: 'Services',
+  contact: 'Contact',
+  phone: 'Phone: 123456789',
+  email: 'Email: contact_pethaven.vn',
+  facebook: 'Facebook: PetHaven',
+  footerCopyright: '© 2024 PetHaven. Copyright belongs to us.',
+  serviceNotAvailable: 'Service not available',
+  login:'Login'
+}as const;
